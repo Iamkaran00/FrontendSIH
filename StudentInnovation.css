@@ -1,0 +1,121 @@
+/* StudentProjectGuidanceForm.css */
+
+.spg-form-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+.spg-form-container {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  top:6rem;
+  padding: 20px;
+  background-color:rgba(215, 215, 215, 0.597);
+}
+
+.spg-form-header {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.spg-form-subheader {
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.spg-form-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.spg-form-table th,
+.spg-form-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.spg-form-table th {
+ 
+  font-weight: bold;
+}
+
+.spg-form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.spg-form-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+.spg-form-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.spg-form-add-button {
+  background-color: #008CBA;
+}
+
+.spg-form-submit-button {
+  background-color: #4CAF50;
+}
+
+.spg-form-nav-button {
+  background-color: #555;
+}
+
+.spg-form-total-credits {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.spg-form-navigation {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .spg-form-container {
+    padding: 10px;
+  }
+
+  .spg-form-table {
+    font-size: 14px;
+  }
+
+  .spg-form-input,
+  .spg-form-textarea,
+  .spg-form-button {
+    font-size: 14px;
+  }
+}
+.previousbutton{
+  position:relative;
+  top:6rem;
+}
+.parentinno{
+  width:100vw;
+  height:100vh;
+  background-color: #CADCFC;
+}

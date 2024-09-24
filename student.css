@@ -1,0 +1,134 @@
+/* StudentTable.css */
+
+.student-table-container {
+  font-family: Arial, sans-serif;
+  max-width: 100vw;
+  margin: 0 auto;
+min-height:100vh;
+  background-color:  #CADCFC;
+  padding: 20px;
+}
+
+.student-table-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.student-table-wrapper {
+  overflow-x: auto;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-performance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.student-performance-table th,
+.student-performance-table td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: left;
+}
+
+.student-performance-table th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+.student-performance-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student-performance-table input[type="text"],
+.student-performance-table input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.student-performance-table input[readonly] {
+  background-color: #e9ecef;
+}
+
+.performance-factors {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.student-table-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.student-table-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.student-table-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.student-table-btn:hover {
+  transform: translateY(-2px);
+}
+
+.student-table-btn-add {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.student-table-btn-submit {
+  background-color: #3498db;
+  color: white;
+}
+
+.student-table-btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.student-table-btn-nav {
+  background-color: #34495e;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .student-table-container {
+    padding: 10px;
+  }
+
+  .student-performance-table th,
+  .student-performance-table td {
+    padding: 8px;
+  }
+
+  .student-table-button-container,
+  .student-table-navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .student-table-btn {
+    width: 100%;
+  }
+}

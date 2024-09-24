@@ -1,0 +1,92 @@
+/* FacultyAssessment.css */
+.parentcontainer{
+  min-height:100vh;
+  width:100vw;
+  background-color:#CADCFC;
+}
+.faf-wrapper {
+  font-family: Arial, sans-serif;
+  max-width:800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:  #CADCFC;
+
+}
+
+.faf-container {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faf-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.faf-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.faf-form-group {
+  margin-bottom: 15px;
+}
+
+.faf-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.faf-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.faf-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.faf-submit-btn, .faf-next-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.faf-submit-btn:hover, .faf-next-btn:hover {
+  background-color: #45a049;
+}
+
+.faf-navigation {
+  margin-top: 20px;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .faf-wrapper {
+    padding: 10px;
+  }
+
+  .faf-container {
+    padding: 15px;
+  }
+
+  .faf-input, .faf-submit-btn, .faf-next-btn {
+    font-size: 14px;
+  }
+}
